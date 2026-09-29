@@ -1,0 +1,16 @@
+export const vocabulary = [
+  // Greetings & introductions
+  ['Kumusta', 'Apa kabar?', 'greetings'], ['Salamat', 'Terima kasih', 'greetings'], ['Paalam', 'Sampai jumpa', 'greetings'], ['Oo', 'Ya', 'greetings'], ['Hindi', 'Tidak', 'greetings'], ['Magandang umaga', 'Selamat pagi', 'greetings'], ['Magandang gabi', 'Selamat malam', 'greetings'], ['Ingat', 'Hati-hati', 'greetings'], ['Tulong', 'Tolong', 'greetings'], ['Sige', 'Baiklah', 'greetings'], ['Kaibigan', 'Teman', 'greetings'], ['Paano', 'Bagaimana', 'greetings'],
+  // Numbers & questions
+  ['Isa', 'Satu', 'numbers'], ['Dalawa', 'Dua', 'numbers'], ['Tatlo', 'Tiga', 'numbers'], ['Apat', 'Empat', 'numbers'], ['Lima', 'Lima', 'numbers'], ['Anim', 'Enam', 'numbers'], ['Pito', 'Tujuh', 'numbers'], ['Walo', 'Delapan', 'numbers'], ['Siyam', 'Sembilan', 'numbers'], ['Sampu', 'Sepuluh', 'numbers'], ['Sino', 'Siapa', 'questions'], ['Ano', 'Apa', 'questions'], ['Saan', 'Di mana', 'questions'], ['Kailan', 'Kapan', 'questions'], ['Bakit', 'Mengapa', 'questions'],
+  // Family
+  ['Pamilya', 'Keluarga', 'family'], ['Nanay', 'Ibu', 'family'], ['Tatay', 'Ayah', 'family'], ['Ate', 'Kakak perempuan', 'family'], ['Kuya', 'Kakak laki-laki', 'family'], ['Anak', 'Anak', 'family'], ['Lola', 'Nenek', 'family'], ['Lolo', 'Kakek', 'family'], ['Bata', 'Anak kecil', 'family'], ['Asawa', 'Pasangan', 'family'],
+  // Food & drinks
+  ['Pagkain', 'Makanan', 'food'], ['Tubig', 'Air', 'food'], ['Kanin', 'Nasi', 'food'], ['Tinapay', 'Roti', 'food'], ['Kape', 'Kopi', 'food'], ['Masarap', 'Enak', 'food'], ['Gutom', 'Lapar', 'food'], ['Uhaw', 'Haus', 'food'], ['Busog', 'Kenyang', 'food'], ['Gusto', 'Suka / ingin', 'food'], ['Kain', 'Makan', 'food'], ['Pakiusap', 'Tolong / silakan', 'food'], ['Isang', 'Satu buah / satu porsi', 'food'],
+  // Daily activities
+  ['Gumigising', 'Bangun', 'activities'], ['Kumakain', 'Sedang makan', 'activities'], ['Nag-aaral', 'Belajar', 'activities'], ['Nagbabasa', 'Membaca', 'activities'], ['Nagtatrabaho', 'Bekerja', 'activities'], ['Natutulog', 'Sedang tidur', 'activities'], ['Umuwi', 'Pulang', 'activities'], ['Ngayon', 'Sekarang / hari ini', 'time'], ['Bukas', 'Besok', 'time'], ['Kahapon', 'Kemarin', 'time'],
+  // Places & directions
+  ['Bahay', 'Rumah', 'places'], ['Kuwarto', 'Kamar', 'places'], ['Paaralan', 'Sekolah', 'places'], ['Tindahan', 'Toko', 'places'], ['Restawran', 'Restoran', 'places'], ['Banyo', 'Kamar mandi', 'places'], ['Daan', 'Jalan', 'places'], ['Lungsod', 'Kota', 'places'], ['Dito', 'Di sini', 'places'], ['Doon', 'Di sana', 'places'], ['Malapit', 'Dekat', 'directions'], ['Kaliwa', 'Kiri', 'directions'], ['Kanan', 'Kanan', 'directions'], ['Palengke', 'Pasar', 'places'],
+  // Descriptions & grammar
+  ['Ako', 'Saya', 'pronouns'], ['Ikaw', 'Kamu', 'pronouns'], ['Siya', 'Dia', 'pronouns'], ['Kami', 'Kami', 'pronouns'], ['Sila', 'Mereka', 'pronouns'], ['Mabuti', 'Baik', 'adjectives'], ['Masaya', 'Senang', 'adjectives'], ['Malaki', 'Besar', 'adjectives'], ['Maliit', 'Kecil', 'adjectives'], ['Maganda', 'Indah / bagus', 'adjectives'], ['Mahal', 'Mencintai / mahal', 'adjectives'], ['Ay', 'Adalah', 'grammar'], ['Ang', 'Penanda subjek', 'grammar'], ['Ng', 'Penanda objek / kepunyaan', 'grammar'], ['Sa', 'Di / ke', 'grammar'],
+].map(([tagalog, indonesian, category], index) => ({ id: index + 1, tagalog, indonesian, category }))
