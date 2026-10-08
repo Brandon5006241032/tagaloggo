@@ -32,6 +32,7 @@ export default function Onboarding() {
   const next = () => {
     if (step === steps.length - 1) {
       update({ onboardingDone: true })
+      setStep(-1)
       navigate('/learn')
     } else {
       setStep(step + 1)
